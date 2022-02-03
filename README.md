@@ -19,6 +19,7 @@ General Gameplay:
 Settings screen:
 - Validation - add on setting
 - Picture in picture
+- Minimum letter count per word
 
 End Game:
 - who won?

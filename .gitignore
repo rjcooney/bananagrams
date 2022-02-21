@@ -130,3 +130,6 @@ dmypy.json
 
 # Yarn PNP
 .pnp.*
+
+# DS_Store - we love macOS!
+.DS_Store

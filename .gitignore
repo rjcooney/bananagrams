@@ -130,6 +130,12 @@ dmypy.json
 
 # Yarn PNP
 .pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # DS_Store - we love macOS!
 .DS_Store

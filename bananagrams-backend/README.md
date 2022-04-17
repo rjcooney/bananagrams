@@ -14,8 +14,8 @@ Follow the following steps to setup the python development environment
 
 ## Setting up the database
 1. Install PostgreSQL & pgadmin
-   a. Make sure that the PG14 bin folder is added to your `path` variable. It should look something like `C:\Program Files\PostgreSQL\14\bin` on windows
-2. Create the `bananagrams` database
+   - Make sure that the PG14 bin folder is added to your `path` variable. It should look something like `C:\Program Files\PostgreSQL\14\bin` on windows
+2. Create the `bananagrams` database in pgadmin. 
 3. Create the `C:\Program Files\PostgreSQL\14\etc\pg_service.conf` file if it doesn't exist. Add the following to the file:
 ```
 [bananagrams]
@@ -28,11 +28,11 @@ port=5432
 ```
 hostname:port:database:username:password
 ```
-For example:
+   For example:
 ```
 localhost:5432:bananagrams:postgres:password:
 ```
-5. Add system (or user) environment variables for the files created in the two previous steps, named `PGPASSFILE` and `PGSERVICEFILE`, respectively
+5. Add system (or user) environment variables pointing to the files created in the two previous steps, named `PGPASSFILE` and `PGSERVICEFILE`, respectively
 
 ## Starting the development server
 in the terminal...

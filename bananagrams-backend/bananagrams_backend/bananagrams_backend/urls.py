@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from bananagrams.views import index_redirect_view
 
 urlpatterns = [
+    path('', index_redirect_view),
     path('bananagrams/', include('bananagrams.urls')),
     path('admin/', admin.site.urls),
 ]
